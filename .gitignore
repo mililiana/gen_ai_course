@@ -15,3 +15,5 @@ trainee_dataset/
 
 .env
 *.env
+lab_1/outputs/
+*.pth
