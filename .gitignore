@@ -17,3 +17,4 @@ trainee_dataset/
 *.env
 lab_1/outputs/
 *.pth
+lab_1/outputs/checkpoints/best_vit.pth
