@@ -1,0 +1,36 @@
+# ============================================================
+# Lab 5: Music Generation with LoRA Fine-tuning (ACE-Step 1.5)
+# ============================================================
+
+# --- Core ACE-Step dependencies ---
+torch>=2.1.0
+torchaudio>=2.1.0
+transformers>=4.36.0
+diffusers>=0.25.0
+accelerate>=0.25.0
+safetensors>=0.4.0
+
+# --- LoRA / PEFT ---
+peft>=0.7.0
+
+# --- Audio processing ---
+librosa>=0.10.1
+soundfile>=0.12.1
+pydub>=0.25.1
+
+# --- Gradio UI (ACE-Step ships with it) ---
+gradio>=4.0.0
+
+# --- Data & utilities ---
+numpy>=1.24.0
+pandas>=2.0.0
+tqdm>=4.65.0
+pyyaml>=6.0
+
+# --- Visualization ---
+matplotlib>=3.7.0
+IPython>=8.0.0
+
+# --- Notebook ---
+jupyter>=1.0.0
+ipywidgets>=8.0.0
